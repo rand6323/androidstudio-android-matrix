@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 行設定 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="8dp">
+
+        <Button
+            android:id="@+id/rowMinusButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="行−"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/rowCountText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="3"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/rowPlusButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="行＋"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- 列設定 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="8dp">
+
+        <Button
+            android:id="@+id/colMinusButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="列−"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/colCountText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="3"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/colPlusButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="列＋"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- 可変グリッド -->
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp" />
+
+    <!-- 計算実行ボタン -->
+
+    <!-- 1行目：スカラー入力 + スカラー倍ボタン -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/scalarInput"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:hint="スカラー c"
+            android:inputType="numberDecimal"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/scalarButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="スカラー倍"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <!-- 2行目：演算ボタン3つ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/transposeButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="転置"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/inverseButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="逆行列"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/detButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="行列式"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <!-- 結果表示 -->
+    <TextView
+        android:id="@+id/resultView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="32sp"
+        android:textColor="#000" />
+
+</LinearLayout>
