@@ -2,7 +2,6 @@ package com.example.chaquopyapp
 
 import android.os.Bundle
 import android.text.InputType
-import android.util.Log
 import android.view.Gravity
 import android.widget.Button
 import android.widget.EditText
@@ -176,7 +175,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun hideKeyboard() {
         currentFocus?.let { view ->
-            val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as? InputMethodManager
+            val imm = getSystemService(INPUT_METHOD_SERVICE) as? InputMethodManager
             imm?.hideSoftInputFromWindow(view.windowToken, 0)
         }
     }
