@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">MatrixApp</string>
+    <string name="label_row_minus">行-</string>
+    <string name="label_row_plus">行＋</string>
     <string name="label_column_minus">列-</string>
     <string name="label_column_plus">列＋</string>
+    <string name="label_scalar_hint">スカラー c</string>
+    <string name="label_scalar">スカラー倍</string>
+    <string name="label_transpose">転置</string>
+    <string name="label_inverse">逆行列</string>
+    <string name="label_det">行列式</string>
 </resources>

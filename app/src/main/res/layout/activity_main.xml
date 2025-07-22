@@ -17,7 +17,7 @@
             android:id="@+id/rowMinusButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="行−"
+            android:text="@string/label_row_minus"
             android:textSize="18sp" />
 
         <TextView
@@ -26,14 +26,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="3"
+            android:text="@string/label_row_plus"
             android:textSize="18sp" />
 
         <Button
             android:id="@+id/rowPlusButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="行＋"
+            android:text="@string/label_row_plus"
             android:textSize="18sp" />
     </LinearLayout>
 
@@ -91,7 +91,7 @@
             android:layout_width="0dp"
             android:layout_weight="2"
             android:layout_height="wrap_content"
-            android:hint="スカラー c"
+            android:hint="@string/label_scalar_hint"
             android:inputType="numberDecimal"
             android:padding="8dp" />
 
@@ -100,7 +100,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="スカラー倍"
+            android:text="@string/label_scalar"
             android:padding="8dp" />
     </LinearLayout>
 
@@ -116,7 +116,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="転置"
+            android:text="@string/label_transpose"
             android:padding="8dp" />
 
         <Button
@@ -124,7 +124,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="逆行列"
+            android:text="@string/label_inverse"
             android:padding="8dp" />
 
         <Button
@@ -132,7 +132,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="行列式"
+            android:text="@string/label_det"
             android:padding="8dp" />
     </LinearLayout>
 
