@@ -3,16 +3,12 @@
 Android Studio（Kotlin）と Chaquopy（Python）で実装した、行列計算アプリです。  
 スカラー倍・転置・逆行列・行列式など、多目的に使える UI を備えています。
 
----
-
 ## 技術スタック
 
 - **Kotlin**（Android アプリ本体）  
 - **Chaquopy** （Python 実行環境）  
 - **NumPy** （行列演算）  
 - **Android UI**：動的な GridLayout、各種ボタン・Input 付き  
-
----
 
 ## セットアップ方法
 
@@ -31,13 +27,12 @@ Android Studio（Kotlin）と Chaquopy（Python）で実装した、行列計算
 
 ## フォルダ構成
 
+```
 programs/
-
 └ android-matrix/
-
     ├ app/                   ← Android Studio のプロジェクト
     └ calc/                 ← Python 行列ロジック（calc_matrix.py）
-
+```
 
 ## テスト環境
 
