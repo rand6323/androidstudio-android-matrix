@@ -12,7 +12,6 @@ import androidx.core.content.ContextCompat
 import com.chaquo.python.PyObject
 import com.chaquo.python.Python
 import android.view.inputmethod.InputMethodManager
-import android.content.Context
 
 class MainActivity : AppCompatActivity() {
     private var rowCount = 2

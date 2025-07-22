@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MatrixApp</string>
+    <string name="label_column_minus">列-</string>
+    <string name="label_column_plus">列＋</string>
 </resources>
