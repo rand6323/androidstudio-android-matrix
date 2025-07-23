@@ -44,6 +44,7 @@ programs/
 | Android バージョン   | Android 15（API 35）                       |
 | USBデバッグ         | 有効                                       |
 | テスト方法           | Android Studio から「Run」で実行           |
+<<<<<<< HEAD
 
 
 ## スクリーンショット
