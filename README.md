@@ -51,4 +51,4 @@ programs/
 
 逆行列を計算している様子
 
-![行列計算の様子](./images/matrix_screenshot.jpg)
+![行列計算の様子](./images/matrix_screenshot.webp)
